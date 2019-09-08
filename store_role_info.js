@@ -90,7 +90,7 @@ variableStorage: function(data, varType) {
 		    dataType = 'Date';
 			break;
 		case 11:
-		   dataType = 'List';
+		   dataType = 'Number';
 		   break;
 	}
 	return ([data.varName2, dataType]);
