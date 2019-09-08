@@ -37,7 +37,7 @@ subtitle: function(data) {
 //---------------------------------------------------------------------
 
 // Who made the mod (If not set, defaults to "DBM Mods")
-author: "DBM & Lasse",
+author: "DBM, Lasse and Cap",
 
 // The version of the mod (Defaults to 1.0.0)
 version: "1.9.2", //Added in 1.9.2
