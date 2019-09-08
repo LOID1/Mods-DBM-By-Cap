@@ -238,7 +238,7 @@ action: function(cache) {
 		    result = targetRole.createdAt;
 			break;
 		case 11:
-		   result = targetRole.permissions;//Number permissions: https://discordapp.com/developers/docs/topics/permissions#permissions-bitwise-permission-flags
+		   result = targetRole.permissions;
 		   break;
 		default:
 			break;
