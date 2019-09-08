@@ -1,7 +1,7 @@
 # Mods DBM By Cap
 
 ### Store Role Info
-Add two options:
+Added two options:
 - Role Creation Date
 - Role Permissions (numbers)
 
