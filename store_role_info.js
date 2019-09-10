@@ -86,10 +86,10 @@ variableStorage: function(data, varType) {
 		case 9:
 			dataType = 'Member List';
 			break;
-		case 10:
+		case 10: // Added by Cap in 1.9.6
 		    dataType = 'Date';
 			break;
-		case 11:
+		case 11: // Added by Cap in 1.9.6
 		   dataType = 'Number';
 		   break;
 	}
@@ -234,10 +234,10 @@ action: function(cache) {
 		case 9:
 			result = targetRole.members.array();
 			break;
-		case 10:
-		    result = targetRole.createdAt;
+		case 10: // Added by Cap in 1.9.6
+		    result = targetRole.createdAt; 
 			break;
-		case 11:
+		case 11: // Added by Cap in 1.9.6
 		   result = targetRole.permissions;
 		   break;
 		default:
