@@ -90,7 +90,7 @@ module.exports = {
 				dataType = 'Image URL';
 				break;
 			case 6: // Verification Level
-			case 43: // Explicit Content Filter
+			case 43: // Explicit Content Filter. Added by Cap in 1.9.6
 			case 17: // Server Member Count
 			case 19: // Time To AFK
 			case 23: // Channel Amount.
@@ -482,7 +482,7 @@ module.exports = {
 					const varName2 = this.evalMessage(data.varName2, cache);
 					this.storeValue(result, storage, varName2, cache);
 				});
-				case 43: // Explicit Content Filter
+				case 43: // Explicit Content Filter. Added by Cap in 1.9.6
 					result = targetServer.explicitContentFilter;
 					break;
 			     default:
