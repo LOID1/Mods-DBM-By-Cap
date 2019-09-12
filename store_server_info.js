@@ -465,7 +465,7 @@ module.exports = {
 			case 40: // Is Server Verified?
 				result = targetServer.verified;
 				break;
-			case 41://	Collection of banned users
+			case 41: //	Collection of banned users
 				targetServer.fetchBans()
 				.then(bans => {
 					result = bans.array();
@@ -474,7 +474,7 @@ module.exports = {
 					this.storeValue(result, storage, varName2, cache);
 				});
 				break;
-			case 42://	Collection of guild invites
+			case 42: //	Collection of guild invites
 				targetServer.fetchInvites()
 				.then(invites => {
 					result = invites.array();
