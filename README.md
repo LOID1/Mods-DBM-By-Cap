@@ -1,5 +1,11 @@
 # Mods DBM By Cap
 
+### Store Role Info
+> Added one option:
+- Role Members Amount
+
+<img src="https://i.imgur.com/b0Xh0HS.png">
+
 ### Store Server Info
 > Added one option:
 - Server Explicit Content Filter
