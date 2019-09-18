@@ -1,5 +1,18 @@
 # Mods DBM By Cap
 
+> New UI, fixes, and new default action options added:
+- Message Length
+- Message Guild
+- Message Attachments count
+- Message Type
+- Message Creation Date
+- Message Is Deletable?
+- Message Is Deleted?
+- Message Is Of Discord?
+- Message Webhook ID
+
+<img src="https://i.imgur.com/I14uO8Q.gif">
+
 ### Store Role Info
 > Added one option:
 - Role Members Amount
