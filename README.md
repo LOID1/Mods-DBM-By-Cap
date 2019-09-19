@@ -3,7 +3,7 @@
 ### Store Message Info
 > Booleans category removed and added to mod ``Check If Message``
 
-<img src="https://prnt.sc/p8cges">
+<img src="https://i.imgur.com/1q9DdED.png">
 
 ### Store Member Info
 > Added two new options:
