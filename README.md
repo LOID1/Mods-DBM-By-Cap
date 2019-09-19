@@ -1,5 +1,21 @@
 # Mods DBM By Cap
 
+### Check If Message MOD
+> The Booleans category of the mod "Store Message info" that I had previously made has been removed and added to this new mod!
+
+Including:
+- Is Pinnable?
+- Is Pinned?
+- Is Deletable?
+- Is Deleted?
+- Is TTS?
+- Is Of Discord?
+- Includes @everyone Mention?
+
+I recommend upgrading your bot modules using the "npm i" command on the terminal!
+
+<img src="https://i.imgur.com/rz0fiu1.gif">
+
 ### Store Message Info
 > Booleans category removed and added to mod ``Check If Message``:
 
@@ -14,7 +30,7 @@ I recommend upgrading your bot modules using the "npm i" command on the terminal
 
 <img src="https://i.imgur.com/4FLKfAf.gif">
 
-### Store Message Info **(OLD)**
+### Store Message Info OLD)
 > New UI, fixes, and new default action options added:
 - Message Length
 - Message Guild
