@@ -1,5 +1,14 @@
 # Mods DBM By Cap
 
+### Store Member Info
+> Added two new options:
+- Member Permissions List
+- Member Role Amount
+
+<img src="https://i.imgur.com/4FLKfAf.gif">
+
+I recommend upgrading your bot modules using the "npm i" command on the terminal!
+
 ### Store Message Info
 > New UI, fixes, and new default action options added:
 - Message Length
