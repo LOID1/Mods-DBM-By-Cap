@@ -24,7 +24,7 @@ section: "Member Control",
 
 subtitle: function(data) {
 	const members = ['Mentioned User', 'Command Author', 'Temp Variable', 'Server Variable', 'Global Variable'];
-	const info = ['Member Object', 'Member ID', 'Member Username', 'Member Display Name', 'Member Color', 'Member Server', 'Member Last Message', 'Member Highest Role', 'Member Hoist Role', 'Member Color Role', 'Member Game', 'Member Status', 'Member Avatar URL', 'Member Role List', 'Member Join Date', 'Member Voice Channel', 'Member Discrim', 'Member Account Creation Date','Member Tag', 'Member Last Message ID', 'Member Role Amount', 'Member Permissions List']
+	const info = ['Member Object', 'Member ID', 'Member Username', 'Member Display Name', 'Member Color', 'Member Server', 'Member Last Message', 'Member Highest Role', 'Member Hoist Role', 'Member Color Role', 'Member Game', 'Member Status', 'Member Avatar URL', 'Member Role List', 'Member Join Date', 'Member Voice Channel', 'Member Discrim', 'Member Account Creation Date','Member Tag', 'Member Last Message ID', 'Member Roles Amount', 'Member Permissions List']
 	return `${members[parseInt(data.member)]} - ${info[parseInt(data.info)]}`;
 },
 
