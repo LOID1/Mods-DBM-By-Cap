@@ -1,7 +1,7 @@
 # Mods DBM By Cap
 
 ### Store Message Info
-> Booleans category removed and added to mod ``Check If Message``
+> Booleans category removed and added to mod ``Check If Message``:
 
 <img src="https://i.imgur.com/1q9DdED.png">
 
