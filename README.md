@@ -5,9 +5,9 @@
 - Member Permissions List
 - Member Roles Amount
 
-<img src="https://i.imgur.com/4FLKfAf.gif">
-
 I recommend upgrading your bot modules using the "npm i" command on the terminal!
+
+<img src="https://i.imgur.com/4FLKfAf.gif">
 
 ### Store Message Info
 > New UI, fixes, and new default action options added:
