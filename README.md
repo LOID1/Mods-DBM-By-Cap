@@ -3,7 +3,7 @@
 ### Store Member Info
 > Added two new options:
 - Member Permissions List
-- Member Role Amount
+- Member Roles Amount
 
 <img src="https://i.imgur.com/4FLKfAf.gif">
 
