@@ -166,7 +166,7 @@ module.exports = {
                 break;
             default:
                 console.log('Err! Check if the action "Check If Message" is set correctly! ~~Cap');
-				break;
+		break;
         };
         this.executeResults(result, data, cache);
     },
