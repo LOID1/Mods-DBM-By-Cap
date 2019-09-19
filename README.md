@@ -1,5 +1,10 @@
 # Mods DBM By Cap
 
+### Store Message Info
+> Booleans category removed and added to mod ``Check If Message``
+
+<img src="https://prnt.sc/p8cges">
+
 ### Store Member Info
 > Added two new options:
 - Member Permissions List
@@ -9,7 +14,7 @@ I recommend upgrading your bot modules using the "npm i" command on the terminal
 
 <img src="https://i.imgur.com/4FLKfAf.gif">
 
-### Store Message Info
+### Store Message Info **(OLD)**
 > New UI, fixes, and new default action options added:
 - Message Length
 - Message Guild
