@@ -1,5 +1,11 @@
 # Mods DBM By Cap
 
+### Send Embed Message MOD
+> Was added the Message Content option.
+> It's that message at the top of your embed, the content.
+
+<img src="https://i.imgur.com/PJCrUGv.gif">
+
 ### Check If Message MOD
 > The Booleans category of the mod "Store Message info" that I had previously made has been removed and added to this new mod!
 
