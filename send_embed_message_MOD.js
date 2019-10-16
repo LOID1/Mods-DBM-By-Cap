@@ -41,7 +41,7 @@ module.exports = {
     version: "1.9.6", //Added in 1.9.4
     
     // A short description to show on the mod line for this mod (Must be on a single line)
-    short_description: "Added the option Message Content.",
+    short_description: "Added the Message Content option.",
     
     // If it depends on any other mods by name, ex: WrexMODS if the mod uses something from WrexMods
     
