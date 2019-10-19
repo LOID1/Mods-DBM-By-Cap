@@ -1,5 +1,15 @@
 # Mods DBM By Cap
 
+### Check If Command Exists MOD
+
+> Check if such a command exists
+
+**Note:** It also works with General Wrex's Multiple Prefixes Raw Data.
+
+**Note²:** The following preview is just an example of what she can do, which is not the only way. Use you brain. =)
+
+<img src="https://i.imgur.com/H1b4qxI.gif">
+
 ### Send Embed Message MOD
 > Was added the Message Content option.
 > It's that message at the top of your embed, the content.
