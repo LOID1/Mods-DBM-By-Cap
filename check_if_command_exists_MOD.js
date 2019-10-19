@@ -82,9 +82,9 @@ module.exports = {
                 Created by ${this.author}
             </p>
         </div><br>
-        <div style="width: 67%">
+        <div style="width: 45%">
             Command Name:<br>
-            <input id="commandName" type="text" class="round" placeholder="Leave blank to check the same command...">
+            <input id="commandName" type="text" class="round">
         </div><br>
         <div>
             ${data.conditions[0]}
@@ -121,7 +121,7 @@ module.exports = {
         const fs = require("fs");
         const jp = this.getWrexMods().require("jsonpath");
 
-        var commandName = this.evalMessage(data.commandName, cache) === "" ? cache.msg.content : this.evalMessage(data.commandName, cache);
+        var commandName = this.evalMessage(data.commandName, cache);
 
         if (commandName.startsWith(this.getDBM().Files.data.settings.tag)) {
             var commandName = commandName.slice(this.getDBM().Files.data.settings.tag.length);
