@@ -2,7 +2,7 @@
 
 ### Check If Command Exists MOD
 
-> Check if such a command exists
+> Check if such a command exists.
 
 **Note:** It also works with General Wrex's Multiple Prefixes Raw Data.
 
