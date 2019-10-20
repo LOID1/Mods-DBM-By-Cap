@@ -132,12 +132,21 @@ module.exports = {
         }
 
         const commandsFile = JSON.parse(fs.readFileSync("./data/commands.json", "utf-8"));
-        const commands = jp.query(commandsFile, "$[*].name");
+        const commands = jp.query(commandsFile, "$[*].name").join(", ");
+        const commandsAliases = jp.query(commandsFile, "$[*]._aliases").join(", ");
 
         let result;
 
-        if (commands) {
-            result = Boolean(commands.includes(commandName));
+        if (commands.includes(commandName)) {
+            result = true;
+        }
+
+        else if (commandsAliases.includes(commandName)) {
+            result = true;
+        }
+
+        else {
+            result = false;
         }
 
         this.executeResults(result, data, cache);
