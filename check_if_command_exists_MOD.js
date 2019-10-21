@@ -121,27 +121,29 @@ module.exports = {
         const fs = require("fs");
         const jp = this.getWrexMods().require("jsonpath");
 
-        var commandName = this.evalMessage(data.commandName, cache);
-
-        if (commandName.startsWith(this.getDBM().Files.data.settings.tag)) {
-            var commandName = commandName.slice(this.getDBM().Files.data.settings.tag.length);
-        }
-
-        else if (commandName.startsWith(cache.server.tag)) {
-            var commandName = commandName.slice(cache.server.tag.length);
-        }
+        const commandName = this.evalMessage(data.commandName, cache).slice(this.getDBM().Files.data.settings.tag.length || cache.server.tag.length).split(/ +/).shift();
 
         const commandsFile = JSON.parse(fs.readFileSync("./data/commands.json", "utf-8"));
-        const commands = jp.query(commandsFile, "$[*].name").join(", ");
-        const commandsAliases = jp.query(commandsFile, "$[*]._aliases").join(", ");
+        const commands = jp.query(commandsFile, "$[*].name");
+        const commandsAliases = jp.query(commandsFile, "$[*]._aliases");
 
         let result;
 
-        if (commands.includes(commandName)) {
+        if (commandName === "") {
+            console.log("Please put something in 'Command Name' in the 'Check If Command Exists' action...");
+            return;
+        }
+
+        // Work around that works =D LOL (I did it to improve the search). includes() Is really pretty bad ~~Cap...
+
+        const check = commands.indexOf(commandName);
+        const check2 = commandsAliases.indexOf(commandName);
+
+        if (check !== -1) {
             result = true;
         }
 
-        else if (commandsAliases.includes(commandName)) {
+        else if (check2 !== -1) {
             result = true;
         }
 
