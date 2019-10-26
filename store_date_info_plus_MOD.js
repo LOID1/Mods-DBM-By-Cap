@@ -47,7 +47,7 @@ module.exports = {
     
     // If it depends on any other mods by name, ex: WrexMODS if the mod uses something from WrexMods
     // Uncomment if you need this. Also, replace WrexMODS if needed.
-    // depends_on_mods: ["WrexMODS"],
+    depends_on_mods: ["WrexMODS"],
     
     
     //---------------------------------------------------------------------
