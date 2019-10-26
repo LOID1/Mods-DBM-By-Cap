@@ -1,5 +1,15 @@
 # Mods DBM By Cap
 
+### Store Date Info Plus MOD
+
+> It's a mod that has the same premise as Store Date Info, but much more complete and more practical to use.
+
+> In Builder mode you can build your date your way without having to take variable by variable. It may seem confusing, but just look at the example in mod.
+
+> You can see the documentation of the module that is used to better understand, I recommend <a href="https://momentjs.com/docs/#/displaying/format/" target="_blank">this part</a>, there it shows all the parameters you can use in "Build It" field.
+
+<img src="https://i.imgur.com/fljDfWL.gif">
+
 ### Check If Command Exists MOD
 
 > Check if such a command exists.
