@@ -150,13 +150,13 @@ module.exports = {
             <b>Ex:</b> <span id="code">DD/MM/YYYY [at] HH:mm</span> = <span id="code">10/26/2019 at 10:38</span>
         </div>
         <style>
-            span.wrexlink {
-		        color: #99b3ff;
-		        text-decoration: underline;
-                	cursor: pointer
+             span.wrexlink {
+		color: #99b3ff;
+		text-decoration: underline;
+                cursor: pointer
             }
 
-	        span.wrexlink:hover { 
+	     span.wrexlink:hover { 
                 color:#4676b9
             }
 
