@@ -1,6 +1,22 @@
 # Mods DBM By Cap
 
 ### Store Command Info MOD
+> See information for some command.
+
+Including:
+
+- Command Name
+- Command ID
+- Command Type
+- Command Restricton
+- Command User Required Permission
+- Command Aliases
+- Command Time Restriction
+- Command Actions Length
+
+*Idea by A1berti*.
+
+<img src="https://i.imgur.com/tu63RBz.gif">
 
 ### Store Date Info Plus MOD
 
