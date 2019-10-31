@@ -1,5 +1,7 @@
 # Mods DBM By Cap
 
+### Store Command Info MOD
+
 ### Store Date Info Plus MOD
 
 > It's a mod that has the same premise as Store Date Info, but much more complete and more practical to use.
