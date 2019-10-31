@@ -3,8 +3,7 @@
 ### Store Command Info MOD
 > See information for some command.
 
-Including:
-
+**Including:**
 - Command Name
 - Command ID
 - Command Type
@@ -47,7 +46,7 @@ You can see the documentation of the module that is used to better understand, I
 ### Check If Message MOD
 > The Booleans category of the mod "Store Message info" that I had previously made has been removed and added to this new mod!
 
-Including:
+**Including:**
 - Is Pinnable?
 - Is Pinned?
 - Is Deletable?
