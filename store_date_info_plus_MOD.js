@@ -71,7 +71,6 @@ module.exports = {
     // are also the names of the fields stored in the action's JSON data.
     //---------------------------------------------------------------------
     
-    // 1 item for each HTML element.
     fields: ["sourceDate", "dateLanguage", "modeStorage", "info", "buildInput", "storage", "varName"],
     
     //---------------------------------------------------------------------
