@@ -121,7 +121,15 @@ module.exports = {
         const fs = require("fs");
         const jp = this.getWrexMods().require("jsonpath");
 
-        const commandName = this.evalMessage(data.commandName, cache).slice(this.getDBM().Files.data.settings.tag.length || cache.server.tag.length).split(/ +/).shift();
+        let commandName = this.evalMessage(data.commandName, cache);
+
+        if (commandName.startsWith(cache.server.tag)) {
+            commandName = commandName.slice(cache.server.tag.length).split(/ +/).shift();
+        }
+
+        else if (commandName.startsWith(this.getDBM().Files.data.settings.tag)) {
+            commandName = commandName.slice(this.getDBM().Files.data.settings.tag.length).split(/ +/).shift();
+        }
 
         const commandsFile = JSON.parse(fs.readFileSync("./data/commands.json", "utf-8"));
         const commands = jp.query(commandsFile, "$[*].name");
