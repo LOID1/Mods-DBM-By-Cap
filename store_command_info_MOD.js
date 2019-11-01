@@ -214,11 +214,11 @@ module.exports = {
                 result = jp.query(command, "$.._timeRestriction") == "" ? "none" : parseInt(jp.query(command, "$.._timeRestriction"));
                 break;
             case 7:
-                result = parseInt(jp.query(command, "$..name").length) - 1;
+                result = parseInt(jp.query(command, "$..name").length) - 1 == "" ? "none" : parseInt(jp.query(command, "$..name").length) - 1;
                 break;
             }
 
-            if (!result.length) {
+            if (!result) {
                 result = "invalid";
             }
 
